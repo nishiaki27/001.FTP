@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<!--{$smarty.const.HTTP_URL}-->user_data/packages/tokyo-aircon/css/top_page_only.css">
