@@ -1,0 +1,14 @@
+<h2 id="indexDefaultHeading4">馬力から選ぶ</h2>
+<div class="centerColumn" id="indexDefault3">
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100101&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon1.jpg" alt="天井埋込カセット形4方向" title=" 天井埋込カセット形4方向 " /></div>事務所系</a></div></div>
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100102&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon2.jpg" alt="天井カセット形コンパクト" title=" 天井カセット形コンパクト " /></div>学校関係</a></div></div>
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100103&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon3.jpg" alt="天井埋込カセット形2方向" title=" 天井埋込カセット形2方向 " /></div>一般商店・店舗</a></div></div>
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100104&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon4.jpg" alt="天井埋込カセット形1方向" title=" 天井埋込カセット形1方向 " /></div>病院・医院</a></div></div>
+<br class="clearBoth" />
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100105&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon5.jpg" alt="天吊形" title=" 天吊形 " /></div>飲食店</a></div></div>
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100106&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon6.jpg" alt="壁掛形" title=" 壁掛形 " /></div>工場</a></div></div>
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100107&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon7.jpg" alt="床置形" title=" 床置形 " /></div>理・美容室</a></div></div>
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100108&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon8.jpg" alt="厨房用" title=" 厨房用 " /></div>倉庫・作業場</a></div></div>
+<br class="clearBoth" />
+    <div class="indexListBoxContents"><div class="indexListBoxInContents2"><a href="<!--{$smarty.const.TOP_URLPATH}-->industrial_aircon.php?category_id=100109&options_4=1&options_6=1"><div><img src="/user_data/packages/default/img/common/icon9.jpg" alt="ビルトイン形" title=" ビルトイン形 " /></div>その他</a></div></div>  
+</div>
