@@ -1,0 +1,1 @@
+<link rel="canonical" href="https://www.tokyo-aircon.net<!--{$smarty.server.REQUEST_URI|h}-->" />
