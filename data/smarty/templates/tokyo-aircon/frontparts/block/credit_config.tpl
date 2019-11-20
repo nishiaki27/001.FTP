@@ -1,0 +1,1 @@
+https://www.tokyo-aircon.net/adminpanel/load_module_config.php?module_id=100
