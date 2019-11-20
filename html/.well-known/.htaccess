@@ -1,0 +1,7 @@
+# Access Control Off
+Satisfy any
+order allow,deny
+allow from all
+
+# Rewrite Off
+RewriteEngine off

@@ -1,0 +1,9 @@
+#メモリ使用量の上限
+php_value memory_limit 128M
+
+#POSTデータの最大サイズ　※合計サイズ
+php_value post_max_size 128M
+
+#1ファイルあたりの最大アップロードサイズ
+php_value upload_max_filesize 128M
+

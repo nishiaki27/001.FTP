@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ==============================================
+▼配送エリア  
+=============================================== */
+
+#area_bk_img {
+	display: table-cell;
+	width:780px;
+	display:block;
+	margin:0 0 30px 0;
+	background-attachment: scroll;
+	background-color: rgba;
+	background-image: url(/images/area_bk_img.jpg);
+	background-repeat: no-repeat;
+}
+
+
+#area_bk_img h3 {
+	font-size:40px;
+	color:#d4000e;
+	background:none;
+	margin-bottom:0;
+	padding:15px 0 0 15px;
+}
+
+
+#area_bk_img .tit_sub_text {
+	font-size:14px;
+	width:58%;
+	padding:0 20px 20px;
+	line-height:180%;
+}
+
+#area_bk_img .tit_sub_text  strong{
+	font-size:20px;
+	padding-bottom:0;
+	display:block;
+}
+
+#area_bk_img .tit_sub_text span{
+	font-size:11px;
+	width:60%;
+	padding:0;
+	line-height:120%;
+}
+
+.otherArea dl dt:before{
+	content: "■";
+    color: #cf7179;
+}
+
+.otherArea dl dt{
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+label {
+    padding :10px;
+    display: block;
+    margin: 0;
+    color :#000;
+    background :#ccc;
+    cursor :pointer;
+	/*width:30%;*/
+	text-align:left;
+}
+
+label:hover{
+	background:#555;
+	color:#FFF;
+	
+}
+ 
+input[type="checkbox"].bellows{
+    display: none;/* チェックボックスの非表示 */
+}
+ 
+.ac_menu ul {
+/* メニュー開閉時アニメーション */
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	display:block;
+}
+ 
+ .ac_menu{
+	/*float:left;
+	width:30%;
+	margin-right:20px;*/
+	margin-bottom:10px;
+	display:block;
+}
+.ac_menu ul li table{
+	/*display:block;*/
+}
+.ac_menu ul li table tbody{
+	width:100%;
+}
+.ac_menu ul li table tbody tr{
+	width:100%;
+}
+
+
+.ac_menu ul li table tr td ul li{
+	background:none;
+	float:left;
+}
+.ac_menu li {
+    padding: 5px;
+	display:block;
+	background:none;
+}
+
+.ac_menu ul li table th {
+	width:10%;
+}
+ 
+/* ▽▽アコーディオン開閉指定▽▽ */
+input[type="checkbox"].bellows + ul{
+    max-height: 0;/* チェックが入っていない時の高さ */
+    overflow: hidden;
+}
+ 
+input[type="checkbox"].bellows:checked + ul{
+    max-height: 100em;/* チェックが入っているときの高さ */
+}
+/* △△アコーディオン開閉指定△△ */
+@media screen and (max-width:480px) {
+
+#area_bk_img{ background: rgba(0, 0, 0, 0) url(/images/area_bk_img.jpg) no-repeat scroll center;
+background-size:100% auto;
+	background-position: 0 top;
+    display: table-cell;
+    width: 100%;
+    display:block;
+    margin:0 0 0px 0;
+}
+#area_bk_img h3 {
+	font-size:115%;
+	color:#d4000e;
+	background:none;
+	margin-bottom:0;
+	padding:25px 0 0 20px;
+}
+#area_bk_img .tit_sub_text {
+    font-size: 90%;
+    width: 95%;
+    padding-top: 20%;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    line-height: 180%;
+}
+#area_bk_img .tit_sub_text strong {
+    font-size: 100%;
+    padding-bottom: 0;
+    display: block;
+}

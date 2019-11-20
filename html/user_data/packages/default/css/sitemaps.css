@@ -1,0 +1,264 @@
+h1#sitemapsDefaultHeading {
+    background-color: #FFFFFF;
+    background-image: url("../img/common/title_bg_long.jpg");
+    background-position: left -1px;
+    background-repeat: no-repeat;
+    border: 1px solid #999999;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 8px 5px 8px 25px;
+}
+
+.centerColumn#sitemaps {
+    margin-top: 15px;
+    padding: 5px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #999999;
+    line-height: 150%;
+    background: url("../img/contents/sitemaps_bg.gif") repeat-x 0 -200px;
+}
+
+.sitemapsText {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.sitemapsFont {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sitemapsText2 {
+    margin-top: 14px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.freedial {
+    padding-left: 30px;
+    background: url("http://lib2.shopping.srv.yimg.jp/lib/setsubicom/tel.jpg") no-repeat 0 0;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sitemapsForm {
+    background: url("../img/contents/sitemaps_form_bg.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 17px;
+    text-align: center;
+    width: 390px;
+}
+
+.smwLeft {
+    background: url("../img/contents/sitemaps_circle.gif") no-repeat scroll 107px 1px transparent;
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-right: 30px;
+    padding-top: 1px;
+}
+
+#search_form_sitemaps {
+    float: left;
+}
+
+#sitemapsDefaultMainContent {
+    padding: 0;
+}
+
+#sitemapsDefaultMainContent h2 {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    padding: 3px;
+    line-height: 200%;
+    border-bottom: 1px dotted #CDCDCD;
+}
+
+.smwRight {
+    float: right;
+	*float:none;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FF0000;
+	*margin-left:250px;
+}
+.sitemapsMainTitle {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0 5px 10px;
+}
+
+.sitemapsListTitle {
+    background: url("../img/contents/sitemaps_list_title.gif") no-repeat scroll 0 0 transparent;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.sitemapsListin {
+    padding: 2px 8px 2px 16px;
+    float: left;
+    background: url("../img/contents/triangle_gray.gif") no-repeat -4px 4px;
+}
+
+.smw70 {
+    width: 65px;
+}
+
+.smw200 {
+    *width: 200px;
+}
+.smclear {
+    clear: both;
+}
+
+#sitemapsListBlock {
+    float: left;
+    width: 269px;
+}
+
+#sitemapsList1 {
+    padding: 0 0 20px 0;
+    margin: 0;
+    border-bottom: 1px dotted #999999;
+    overflow:hidden;
+}
+
+#sitemapsList2{
+    padding: 0;
+    margin: 10px 0 0 0 ;
+    overflow:hidden;
+    clear: both;
+}
+
+#sitemapsListBlocks {
+    float: left;
+    width: 269px;
+    margin-left: 14px;
+    padding-left: 14px;
+    border-left: 1px solid #999999;
+}
+
+.smw60 {
+    width: 65px;
+}
+
+#sitemapsList3{
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px dotted #999999;
+    overflow:hidden;
+}
+
+#sitemapsList4{
+    padding: 0;
+    margin: 10px 0 0 0 ;
+    overflow:hidden;
+    border-bottom: 1px dotted #999999;
+    clear: both;
+}
+
+#sitemapsList5{
+    padding: 0;
+    margin: 10px 0 0 0 ;
+    overflow:hidden;
+    clear: both;
+}
+
+.sitemapsBottom {
+    margin-top: 15px;
+    padding: 5px 0;
+    border-bottom: 0px;
+    line-height: 150%;
+    overflow:auto;
+    overflow-y: hidden\9;
+}
+
+.sitemapsBottom ul{
+	*padding-bottom:10px;
+	}
+
+#sitemapsListBlock2 {
+    float: left;
+    width: 140px;
+    padding: 0;
+    background: url("../img/contents/sitemaps_bg_1.gif") no-repeat 0 0;
+}
+
+.sitemapsListTitleS {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 0 5px 12px;
+}
+
+.sitemapsListinS {
+    padding: 2px 0 2px 20px;
+	*padding: 2px 0 1px 20px;
+    background: url("../img/contents/triangle_red_2.gif") no-repeat 0px 3px;
+}
+
+.sitemapsListBottomS {
+    padding: 2px 0 2px 20px;
+    background: url("../img/contents/triangle_red_2.gif") no-repeat 0px 3px;
+}
+
+#sitemapsList6{
+    overflow:hidden;
+}
+
+#sitemapsList7{
+    background: url("../img/contents/sitemaps_bg_2.gif") no-repeat 0 0;
+}
+
+#sitemapsListBlock3 {
+    float: left;
+    width: 436px;
+    height: 394px;
+    padding: 0;
+    margin-left: 4px;
+    background: url("../img/contents/sitemaps_bg_3.gif") no-repeat 0 0;
+}
+
+#sitemapsListBlockin {
+    float: left;
+    width: 225px;
+    margin: 0;
+    padding: 0;
+}
+
+#sitemapsListBlockin2 {
+    float: left;
+    width: 211px;
+    margin: 0;
+    padding: 0;
+}
+
+.sitemapsListTitleL {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 0 5px 12px;
+}
+
+.sitemapsListinTitle {
+    padding: 5px 0 0 22px;
+    background: url("../img/common/menu_bg_square.jpg") no-repeat 7px 10px;
+}
+
+.sitemapsListinL{
+    padding: 0 0 0 8px;
+}
+
+.sitemapsListBottomL {
+    padding: 0 0 0 8px;
+}

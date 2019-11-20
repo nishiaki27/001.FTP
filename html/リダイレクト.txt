@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^tokyo-aircon.kir\.jp/ikou_www/eccube/html/$
+RewriteRule ^(.*)$ https://www.tokyo-aircon.net/$1 [R=301,L]

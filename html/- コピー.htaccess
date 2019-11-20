@@ -1,0 +1,67 @@
+
+#ここから追加
+ErrorDocument 404 /404.php
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-z_0-9]+).php user_data/$1.php [L]
+RewriteCond %{HTTP_HOST} ^apricot-horse-62e9dffdc6e72fd6.znlc.jp
+RewriteRule ^(.*)$ https://www.tokyo-aircon.net/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.apricot-horse-62e9dffdc6e72fd6.znlc.jp
+RewriteRule ^(.*)$ https://www.tokyo-aircon.net/$1 [R=301,L]
+
+
+RewriteCond %{THE_REQUEST} ^.*/index.php
+RewriteRule ^(.*)index.php$ https://www.tokyo-aircon.net/$1 [R=301,L]
+RewriteRule /list.php+ /products/list.php [R=301,L] 
+
+RewriteRule ^keijyo_([a-z_0-9]+).html+ industrial_aircon.php?keijyo=$1&%{QUERY_STRING} [L]
+RewriteRule ^location_([a-z_0-9]+).html+ industrial_aircon_location.php?loc=$1 [L]
+RewriteRule ^power_([a-z_0-9]+).html+ industrial_aircon_power.php?pw=$1&%{QUERY_STRING} [L]
+RewriteRule ^maker_([a-z_0-9]+)_([a-z_0-9]+).html+ industrial_aircon_maker.php?ma=$1&keijyo=$2&%{QUERY_STRING} [L]
+
+RewriteRule ^maker_daikin.html+ /products/list.php?category_id=100001&orderby=price [L]
+RewriteRule ^maker_toshiba.html+ /products/list.php?category_id=100002&orderby=price [L]
+RewriteRule ^maker_mitsubishidenki.html+ /products/list.php?category_id=100003&orderby=price [L]
+RewriteRule ^maker_hitachi.html+ /products/list.php?category_id=100004&orderby=price [L]
+RewriteRule ^maker_mitsubishijyuko.html+ /products/list.php?category_id=100005&orderby=price [L]
+RewriteRule ^maker_panasonic.html+ /products/list.php?category_id=100006&orderby=price [L]
+
+RewriteRule ^building/daikin.html+ /building/index.php?maker_name=daikin [L]
+RewriteRule ^building/toshiba.html+ /building/index.php?maker_name=toshiba [L]
+RewriteRule ^building/mitsubishidenki.html+ /building/index.php?maker_name=mitsubishidenki [L]
+RewriteRule ^building/hitachi.html+ /building/index.php?maker_name=hitachi [L]
+RewriteRule ^building/mitsubishijyuko.html+ /building/index.php?maker_name=mitsubishijyuko [L]
+
+RewriteRule ^setsubi/daikin.html+ /setsubi/index.php?maker_name=daikin [L]
+RewriteRule ^setsubi/toshiba.html+ /setsubi/index.php?maker_name=toshiba [L]
+RewriteRule ^setsubi/mitsubishidenki.html+ /setsubi/index.php?maker_name=mitsubishidenki [L]
+RewriteRule ^setsubi/hitachi.html+ /setsubi/index.php?maker_name=hitachi [L]
+RewriteRule ^setsubi/mitsubishijyuko.html+ /setsubi/index.php?maker_name=mitsubishijyuko [L]
+
+RewriteRule ^discount_aircon/index.html+ /user_data/discount_aircon/index.php [L]
+RewriteRule ^discount_aircon/form.html+ /user_data/discount_aircon/form.php [L]
+RewriteRule ^discount_aircon/maker.html+ /user_data/discount_aircon/maker.php [L]
+RewriteRule ^discount_aircon/form_([a-z_0-9]+).html+ discount_aircon/form.html?keijyo=$1&%{QUERY_STRING} [L]
+RewriteRule ^discount_aircon/maker_([a-z_0-9]+)_([a-z_0-9]+).html+ discount_aircon/maker.html?ma=$1&keijyo=$2&%{QUERY_STRING} [L]
+
+RewriteRule ^kanreiti/index.html+ /user_data/kanreiti/index.php [L]
+RewriteRule ^kanreiti/form.html+ /user_data/kanreiti/form.php [L]
+RewriteRule ^kanreiti/maker.html+ /user_data/kanreiti/maker.php [L]
+RewriteRule ^kanreiti/form_([a-z_0-9]+).html+ kanreiti/form.html?keijyo=$1&%{QUERY_STRING} [L]
+RewriteRule ^kanreiti/maker_([a-z_0-9]+)_([a-z_0-9]+).html+ kanreiti/maker.html?ma=$1&keijyo=$2&%{QUERY_STRING} [L]
+
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(tokyo-aircon\.net)(:80)? [NC]
+RewriteRule ^(.*) https://www.tokyo-aircon.net/$1 [R=301,L] 
+
+RewriteCond %{HTTP_USER_AGENT} ^.*Googlebot.*$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*slurp.*$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*msnbot.*$
+RewriteCond %{SERVER_PORT} ^443$
+RewriteRule ^(.*)$ https://www.tokyo-aircon.net/$1 [R,L]

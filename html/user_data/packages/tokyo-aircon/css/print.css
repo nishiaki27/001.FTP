@@ -1,0 +1,15 @@
+@charset "utf-8";@media print{body{zoom:75%;}
+}
+@media print{body.print div#header_wrap,
+body.print div#navBreadCrumb,
+body.print div#leftcolumn,
+body.print div#rightcolumn,
+body.print div#footer_wrap,
+body.print div.recomendarea-wrap,
+body.print div.centerColumn3,
+body.print div#productExplain,
+body.print div.subtext_p,
+body.print div.product_info_p{display:none;}
+body.print{font-size:12pt;background:none;}
+body.print div.body{width:500px;margin:0 auto;}
+}

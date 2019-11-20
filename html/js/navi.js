@@ -1,0 +1,1 @@
+function chgImg(fileName,img){if(typeof(img)=="object"){img.src=fileName;}else{document.images[img].src=fileName;}}function chgImgImageSubmit(fileName,imgObj){imgObj.src=fileName;}

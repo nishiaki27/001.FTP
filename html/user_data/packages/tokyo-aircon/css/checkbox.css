@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+.checkbox04-input{
+  display: none;
+}
+.checkbox04-parts{
+  position: relative;
+  padding: 15px 20px 15px 53px;
+  transition:.3s;
+  color: #444;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  display:inline-block;
+  line-height:1;
+}
+.checkbox04-input:checked + .checkbox04-parts{
+  background: #ff555e;
+  color: #fff;
+  border: 1px solid #ff555e;
+}
+.checkbox04-parts::before{
+  content: "";
+  display: block;
+  left: 9px;
+  width: 30px;
+  height: 15px;
+  border-radius: 15px;
+  border: 1px solid #aaa;
+  background: #fff;
+  position: absolute;
+}
+.checkbox04-parts::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top:17px;
+  left: 11px;
+  width: 13px;
+  height: 13px;
+  background: #aaa;
+  border-radius: 50%;
+  transition:.2s;
+  display: block;
+}
+.checkbox04-input:checked + .checkbox04-parts::before {
+  border: 1px solid #ff555e;
+}
+.checkbox04-input:checked + .checkbox04-parts::after {
+  left: 26px;
+  background: #ff555e;
+}
+.checkbox02-input:checked + .checkbox02-parts::after{
+  width: 2px;
+  height: 13px;
+
+}
+.checkbox02-input:checked + .checkbox02-parts{
+  color: #0071bc;
+}
+.checkbox02-input{
+  display: none;
+}
+.checkbox02-parts{
+  padding-left: 30px;
+  position: relative;
+}
+.checkbox02-parts::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 9px;
+  left: 14px;
+  background: #0071bc;
+  transition:width .2s;
+  transform: rotate(140deg);
+}
+.checkbox02-parts::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0px;
+  background: #0071bc;
+  top: 4px;
+  left: 20px;
+  transition:width .2s .2s;
+  transform: rotate(230deg);
+}
+
+.checkbox02-input:checked + .checkbox02-parts::before{
+  width: 2px;
+  height: 5px;
+
+}
+.checkbox02-input:checked + .checkbox02-parts::after{
+  width: 2px;
+  height: 13px;
+
+}
+.checkbox02-input:checked + .checkbox02-parts{
+  color: #0071bc;
+}
+.checkbox03-input{
+  display: none;
+}
+.checkbox03-parts{
+  padding-left: 28px;
+  position: relative;
+  line-height:1;
+}
+.checkbox03-parts::before{
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 16px;
+  top: -1px;
+  left: 0px;
+  background: #ccc;
+  border-radius: 3px;
+  border-bottom: 2px solid #aaa;
+}
+.checkbox03-parts::after{
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  font-weight: bold;
+  position: absolute;
+  left: 2px;
+  top: -2px;
+  color: #e21734;
+  text-shadow:0 2px #999;
+  transform: scale(0,0);
+  display: block;
+    font-size: 17px;
+}
+
+.checkbox03-input:checked + .checkbox03-parts::after{
+  transform: scale(1,1);
+  width: 2px;
+  height: 5px;
+  animation: baunce .3s;  /* スピードなど */
+}
+

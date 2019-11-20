@@ -1,0 +1,139 @@
+<!--
+<div class="iamContainerTitle">
+  <h3>パナソニック 業務用エアコン 室外機一覧</h3>
+</div>
+<div id="products_out"><img src="http://www.tokyo-aircon.net/images/ind_aircon_maker/hyper_out.jpg" alt="ハイパーインバーター 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">ハイパーインバーター 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;*width:550px;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+        <td colspan="5">640</td>
+        <td>750</td>
+        <td colspan="3">1505</td>
+        <td colspan="2">1675</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+        <td colspan="5">800(+71)</td>
+        <td colspan="1">880(+88)</td>
+        <td colspan="3">970</td>
+        <td colspan="4">1080</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+        <td colspan="5">290</td>
+        <td colspan="1">340</td>
+        <td colspan="3">370</td>
+        <td colspan="4">480</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+        <td colspan="5">45・47(単)</td>
+        <td colspan="1">64</td>
+        <td colspan="3">114</td>
+        <td>203</td>
+        <td>205</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/saison_out.jpg" alt="セゾンインバーター 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">セゾンインバーター 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;*width:550px;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+        <td colspan="5">640</td>
+        <td colspan="1">750</td>
+        <td colspan="3">845</td>
+        <td colspan="1">1300</td>
+        <td colspan="1">1505</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+        <td colspan="5">800(+71)</td>
+        <td colspan="1">880(+88)</td>
+        <td colspan="7">970</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+        <td colspan="5">290</td>
+        <td colspan="1">340</td>
+        <td colspan="7">370</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+        <td colspan="5">45・47（単）</td>
+        <td colspan="1">60</td>
+        <td colspan="3">78</td>
+        <td colspan="1">122</td>
+        <td>140</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+<div class="iamContainerTitle">
+  <h3>パナソニック 業務用エアコン リモコン</h3>
+</div>
+<div id="products_out"><img src="http://www.tokyo-aircon.net/images/ind_aircon_maker/jyukou_remotecontrol.jpg" alt="パナソニックリモコン" ></div>
+ -->

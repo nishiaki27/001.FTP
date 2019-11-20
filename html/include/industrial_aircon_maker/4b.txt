@@ -1,0 +1,288 @@
+<!--
+<div class="iamContainerTitle">
+  <h3>日立 業務用エアコン 室外機一覧</h3>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/hitachi_premium.jpg" alt="省エネの達人 プレミアム 室外機" 
+
+></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">省エネの達人 プレミアム 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+        <th>P335形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+        <th>12</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span 
+
+class="p10px">（mm）</span></th>
+        <td colspan="5">600</td>
+        <td>800</td>
+        <td colspan="5">1380</td>
+        <td>1650</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span 
+
+class="p10px">（mm）</span></th>
+        <td colspan="5">792(+95)</td>
+        <td colspan="6">950</td>
+        <td>1100</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span 
+
+class="p10px">（mm）</span></th>
+        <td colspan="5">300</td>
+        <td colspan="6">370</td>
+        <td>390</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span 
+
+class="p10px">（kg）</span></th>
+        <td colspan="5">39・41（単）</td>
+        <td>66</td>
+        <td colspan="3">103</td>
+        <td>136</td>
+        <td>138</td>
+        <td>171</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/hitachi_tatujin.jpg" alt="省エネの達人 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">省エネの達人 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+        <th>P335形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+        <th>12</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span class="p10px">（mm） </span></th>
+        <td colspan="6">600</td>
+        <td colspan="3">1140</td>
+        <td colspan="2">1380</td>
+        <td>1650</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span class="p10px">（mm） </span></th>
+        <td colspan="6">792(+95)</td>
+        <td colspan="5">950</td>
+        <td>1100</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span class="p10px">（mm） </span></th>
+        <td colspan="6">300</td>
+        <td colspan="5">370</td>
+        <td>390</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span class="p10px">（kg） </span></th>
+        <td colspan="5">39・41（単）</td>
+        <td>42・44（単）</td>
+        <td>75</td>
+        <td colspan="2">85</td>
+        <td>133</td>
+        <td>138</td>
+        <td>171</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/hitachi_e.jpg" alt="Eシリーズ 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">Eシリーズ 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;*width:550px;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+        <th>P335形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+        <th>12</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span 
+
+class="p10px">（mm）</span></th>
+        <td colspan="6">600</td>
+        <td colspan="3">800</td>
+        <td colspan="4">1380</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span 
+
+class="p10px">（mm）</span></th>
+        <td colspan="6">792(+95)</td>
+        <td colspan="6">950</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span 
+
+class="p10px">（mm）</span></th>
+        <td colspan="6">300</td>
+        <td colspan="6">370</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span 
+
+class="p10px">（kg）</span></th>
+        <td colspan="5">39・41（単）</td>
+        <td>42・44（単）</td>
+        <td>67</td>
+        <td colspan="2">79</td>
+        <td>133</td>
+        <td>138</td>
+        <td>139</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/hitachi_coolingonly_out.jpg" alt="冷房専用 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">冷房専用 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+        <th>P335形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+        <th>12</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span class="p10px">（mm） </span></th>
+        <td colspan="6">600</td>
+        <td colspan="3">800</td>
+        <td colspan="3">1380</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span class="p10px">（mm） </span></th>
+        <td colspan="6">792(+95)</td>
+        <td colspan="6">950</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span class="p10px">（mm） </span></th>
+        <td colspan="6">300</td>
+        <td colspan="6">370</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span class="p10px">（kg） </span></th>
+        <td colspan="5">39・41（単）</td>
+        <td>42・44（単）</td>
+        <td>67</td>
+        <td colspan="2">79</td>
+        <td>133</td>
+        <td>138</td>
+        <td>139</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="iamContainerTitle">
+  <h3>日立 業務用エアコン リモコン</h3>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/hitachi_remotecontrol.jpg" alt="日立リモコン" ></div>
+ -->

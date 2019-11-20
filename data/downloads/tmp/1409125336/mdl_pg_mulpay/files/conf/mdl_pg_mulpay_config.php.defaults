@@ -1,0 +1,54 @@
+<?php
+/*
+ * 有効にするには、ファイル名mdl_pg_mulpay_config.phpで、このファイルをコピー
+ * して下さい。
+ * 
+ * 決済方法及び決済コンビニごとに、GMOPGから購入者へメールを送信するか
+ * どうかを設定します。
+ *
+ * メールを送信したい場合は、対応する設定項目を true に、送信しない場
+ * 合は、false に設定して下さい。
+ *
+ *   設定項目                            決済手段
+ *   ==========================================================
+ *   MDL_PG_MULPAY_CONF_PGMAIL_ATM       ATM
+ *   MDL_PG_MULPAY_CONF_PGMAIL_NETBANK   ネットバンキング
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI   コンビニ
+ *   MDL_PG_MULPAY_CONF_PGMAIL_PAYPAL    PayPal
+ *   MDL_PG_MULPAY_CONF_PGMAIL_WEBMONEY  WebMoney
+ *   MDL_PG_MULPAY_CONF_PGMAIL_NETID     iD決済
+ *
+ *
+ * 項目MDL_PG_MULPAY_CONF_PGMAIL_CONVENIを true に設定すると全てのコン
+ * ビニ決済でメールが送信されます。コンビニ種別ごとに設定したい場合
+ * は、MDL_PG_MULPAY_CONF_PGMAIL_CONVENIをfalseに設定してから、下記
+ * の項目を設定して下さい。
+ *
+ *   設定項目                                        コンビニ
+ *   ==============================================================
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_LAWSON        ローソン
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_FAMILYMART    ファミリーマート
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_SUNKUS        サンクス
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_CIRCLEK       サークルK
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_MINISTOP      ミニストップ
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_DAILYYAMAZAKI デイリーヤマザキ
+ *   MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_SEVENELEVEN   セブンイレブン
+ *
+ */
+
+define('MDL_PG_MULPAY_CONF_PGMAIL_ATM', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_NETBANK', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_PAYPAL', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_WEBMONEY', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_NETID', false);
+
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_LAWSON', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_FAMILYMART', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_SUNKUS', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_CIRCLEK', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_MINISTOP', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_DAILYYAMAZAKI', false);
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_SEVENELEVEN', false);
+
+?>

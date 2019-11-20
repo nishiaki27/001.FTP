@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: */adminpanel/
+
+Allow:/
+Sitemap:https://www.tokyo-aircon.net/sitemap1.xml
+Sitemap:https://www.tokyo-aircon.net/sitemap2.xml
+Sitemap:https://www.tokyo-aircon.net/sitemap3.xml
+Sitemap:https://www.tokyo-aircon.net/sitemap4.xml
+Sitemap:https://www.tokyo-aircon.net/sitemap5.xml
+Sitemap:https://www.tokyo-aircon.net/sitemap6.xml

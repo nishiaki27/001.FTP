@@ -1,0 +1,546 @@
+@charset 'utf-8';
+
+.main .pc_app{
+	display:none;
+}
+.main h2.smp_aircon_ttl{
+	display:none;
+}
+/*-- スマホ対応用css一覧 --*/
+
+/*--  style.cssより  --*/
+
+/**
+ * Media Queries (for smp)
+ * -----------------------------------------------------------------------------
+ */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+@media screen and (max-width: 480px) {
+
+.header_in .header_left .ico{
+	display:none;
+}
+/* 決定後side.cssに転記予定 */
+.side .guide {
+	background: #f7f7f7;
+	overflow:hidden;
+}
+.side .guide ul {
+	padding: 0;
+	background: #f7f7f7;
+	overflow:hidden;
+}
+.side .guide ul li {
+	width:50%;
+	margin: 0px;
+	padding: 11px 0 30px 31px;
+	border-bottom: 1px solid #CCCCCC;
+	height:6px;
+	float:left;
+}
+.side .guide ul li:nth-last-child(2n+0){
+	border-left: 1px solid #CCCCCC;
+}
+.side .guide ul li:last-child {
+	width:100%;
+}
+/*
+.side .guide ul li.newcustomer {
+	background: url(../img/side/ico_side_sp.gif) no-repeat 5px 10px;
+}
+
+.side .guide ul li.kouji {
+	background: url(../img/side/ico_side_sp.gif) no-repeat 5px -24px;
+}
+
+.side .guide ul li.afterservice {
+	background: url(../img/side/ico_side_sp.gif) no-repeat 5px -59px;
+}
+
+.side .guide ul li.ac_pay {
+	background: url(../img/side/ico_side_sp.gif) no-repeat 5px -94px;
+}
+
+.side .guide ul li.faq {
+	background: url(../img/side/ico_side_sp.gif) no-repeat 5px -128px;
+}
+
+.side .guide ul li.review {
+	background: url(../img/side/ico_side_sp.gif) no-repeat 5px -163px;
+}
+
+.side .guide ul li.about_ac {
+	background: url(../img/side/ico_side_sp.gif) no-repeat 5px -198px;
+	height:6px;
+	border-bottom: 1px solid #CCCCCC;
+}
+/* 決定後side.cssに転記予定ここまで */
+
+.main .pc_app{
+	display:block;
+	font-size: 120%;
+	padding:10px 0 15px 10px;
+	background: url(../img/hf/bg_nav_s.gif) repeat-x;
+	margin:0;
+	color:#2159A3;
+	font-weight:bold;
+	cursor:pointer;
+	border-bottom:1px solid #D9D9D9;
+}
+.main .slcis_ttl{
+	border-top:1px solid #D9D9D9;
+}
+.main .pc_app:before{
+	content: "\f107";;	
+	color:#2159A3;
+	padding:0 10px 0 0;
+	font-size:100%;
+}
+
+/* smp_mail */
+
+.smp_mail {
+	position: fixed;
+	z-index: 10;
+	right: 20px;
+	bottom: 180px;
+}
+
+/* スライダー */
+
+.bxslider_wra {
+	width:100%;
+	height:auto;
+}
+
+.bxslider {
+	padding-top: calc(292 / 978 * 100%);
+}
+
+.bxslider a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	z-index: 8;
+}
+
+.bxslider_wra_s .bxslider a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 171px;
+	z-index: 8;
+}
+
+.bx_pager {
+	display:none;
+}
+
+.bxslider_bd {
+	height: auto;
+}
+
+.bxslider img{
+	width:100%;
+}
+/* ご来店 */
+.main h2.greeting{
+ 	font-size:100%;
+	padding: 5px 5px 5px;
+}
+
+.gret_ac{
+	padding:0 10px;
+}
+.main h2.smp_aircon_ttl{
+	display:block;
+}
+
+/* 形状から選ぶ */
+.ind_airconlistbox2 {
+	float: left;
+	width: 100%;
+	height:auto;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	border-bottom:1px solid #CCC;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	line-height: 700%;
+	font-size:130%;
+	font-weight:bold;
+}
+.ind_airconlistbox2 img {
+	float: left;
+	margin: 0 15px 0 10px;
+	width:60px;
+	height:60px;
+}
+.ind_airconlistbox2 .img img {
+	width:100%;
+}
+
+/* 設置場所から選ぶ */
+.ind_airconlistbox3 {
+	float: left;
+	width: 100%;
+	height:auto;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	border-bottom:1px solid #CCC;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	line-height: 700%;
+	font-size:130%;
+	font-weight:bold;
+	text-align:left;
+}
+.ind_airconlistbox3 img {
+	float: left;
+	margin: 0 15px 0 0;
+	width:60px;
+	height:60px;
+}
+.ind_airconlistbox3 .img img {
+	max-width:100%;
+}
+
+/* メーカーから選ぶ */
+.ph_maker{display:table}
+.ind_airconlistbox_maker2 {
+	float: left;
+	width: 100%;
+	height:auto;
+	margin: 0;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	overflow:hidden;
+	border-bottom:1px solid #CCC;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	font-size:130%;
+	font-weight:bold;
+	text-align:left;
+}
+.ind_airconlistbox_maker2 img {
+	float: left;
+}
+.ind_airconlistbox_maker2 .img img {
+	width:100%;
+}
+.ind_airconlistbox_maker2 p{
+	display:inline-block;
+	margin-left:10px;
+	padding-top:2px;
+	}
+/* 馬力から選ぶ */
+.ind_powerlistbox{
+	padding:0px 1px 0px 1px;
+	width:49%;
+	height:50px;
+	margin:0;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:1px solid #CCC;
+	}
+.border_right{
+	border-right:1px solid #CCC;
+
+}
+/* カテゴリから選ぶ */
+.top_cat {
+	float: left;
+	width: 100%;
+	height:auto;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	border-bottom:1px solid #CCC;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	line-height: 60px;
+	font-size:130%;
+	font-weight:bold;
+}
+.top_cat img {
+	float: left;
+	margin: 0 15px 0 10px;
+	width:60px;
+	height:60px;
+}
+.pc{display:none;}
+.mb30{margin:0;}
+/* アコーディオンメニュー */
+.toggle_wrap:last-of-type {
+  border-bottom: 1px solid gray;
+}
+.toggle_switch.open::after {
+  transform: rotateZ(180deg);
+  top: 46%;
+}
+.toggle_contents {
+  display: none;
+}
+.mb10{margin:0;}
+
+h2.title1 span{display:block;padding:0 0 0 0px;border-left:none;}
+.toggle_switch h2.title1 span{padding:0 0 0 0px;border-left:none; margin-left:-5px; margin-right:-5px;}
+/* 下矢印 */
+.arrow_midashi {
+display: block;
+width: 10px;
+height: 10px;
+border-top: 2px solid #000;
+border-right: 2px solid #000;
+-webkit-transform: rotate(135deg);
+transform: rotate(135deg);
+float:left;
+margin-right:8px;
+}
+
+/*
+.choice_line5 {
+	overflow: hidden;
+	width: 100%;
+	margin:0 0 0 20px;
+}
+
+.choice_line5_ov {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 -10px;
+}
+*/
+/* 費用 */
+
+.cost {
+	padding:0;
+	background: #F7F7F7;
+	margin:0 0 15px 0;
+	overflow:hidden;
+}
+.main .cost h2{
+	display:block;
+}
+.cost .cost_left {
+	float: left;
+	width: 100%;
+	height:61px;
+	border-bottom:1px solid #CCC;
+}
+
+.cost .cost_right .cost_r_bl {
+	float: left;
+	width: 100%;
+	height:61px;
+	border-bottom:1px solid #CCC;
+}
+
+.cost .cost_right .crb01 {
+	margin: 0 ;
+}
+.cost .bg_img{
+	width:60px;
+	height:60px;
+	float:left;
+	margin:0 0 0 10px;
+}
+
+.cost .ico {
+	display:none;
+}
+/*.cost img{
+	display:none;
+}*/
+.cost .txt {
+	position: static;
+	bottom: 0;
+	left: 0;
+	width:100%;
+	padding: 10px;
+	background: none;
+}
+
+.cost .txt h3 {
+	font-size:120%;
+	display:blcok;
+	float:left;
+	
+	color: #2159A3;
+	margin: 0;
+	padding: 10px 0 0 25px;
+	border-bottom:none;
+	background: url(../img/arw/arw_wb.gif) no-repeat 15px 17px;
+	
+}
+
+.cost .txt p {
+	display:none;
+}
+
+.cost .cost_right .img {
+	display:none;
+}
+
+
+
+.main .contact{
+	display:none;
+}
+.voice_in .voice_block .txt {
+	float: right;
+	width: 70%;
+}
+/*
+.choice_line5 .cl5_block {
+    float: left;
+    margin: 0px 20px 10px 0px;
+}
+.choice_line5 .cl5_block .arw {
+	height:50px;
+	font-size:120%;
+	margin:0 0 10px 0;
+
+}
+.choice_line5 .cl5f {
+	clear: none;
+}*/
+/* 全国対応 */
+.main .zenkoku_after{
+	overflow:hidden;
+	width:100%;
+	height:auto;
+	background:none;
+	margin:15px 0 0 0;
+}
+.main .zenkoku_after .alljapan{
+	width:100%;
+	height:95px;
+	overflow:hidden;
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px 0 0 0;
+	background: url(../img/top/bnr_care_japan.jpg) no-repeat 0px 10px;
+	border-bottom:1px solid #CCC;
+}
+.main .zenkoku_after .alljapan h3{
+	font-size:150%;
+	margin: 0px;
+	padding: 0px 0px 1px 100px;
+	letter-spacing:2px;
+	border-bottom:none;
+}
+.main .zenkoku_after .alljapan h3 span{
+	color:#FE661A;
+}
+.main .zenkoku_after .alljapan .txt{
+	padding:7px 0 20px 100px;
+	line-height:160%;
+	width:100%;
+}
+.main .zenkoku_after .aftercare{
+	width:100%;
+	height:110px;
+	display:block;
+	float:left;
+	margin:10px 0 0 0px;
+	padding:0;
+	background: url(../img/top/bnr_care_after.jpg) no-repeat 0px 10px;
+}
+.main .zenkoku_after .aftercare h3{
+	font-size:150%;
+	margin: 0px;
+	padding: 0px 0px 1px 100px;
+	border-bottom:none;
+}
+.main .zenkoku_after .aftercare h3 span{
+	color:#FE661A;
+}
+.main .zenkoku_after .aftercare .txt{
+	padding:7px 0 0 100px;
+	line-height:160%;
+}
+.main .zenkoku_after .aftercare .txt div{
+	display:inline;
+}
+.main .voice h3{
+	height:40px;
+
+}
+.tax_subsidy_t li{
+	margin:0 10px 15px 10px;
+
+}
+.tax_subsidy_t li a{
+	width:100%;
+	height:70px;
+	overflow:hidden;
+	float:none;
+
+}
+.smp{
+	display:none;
+}
+/*----- area ----------------------------*/
+
+.col3 .area_adhesion h2 {
+	padding: 5px 0px;
+	position: relative;
+}
+.area_adhesion p.area_greeting {
+	border-top: none;
+}
+.area_adhesion h2 .ico {
+	display:none;
+}
+.area_adhesion .txt {
+	margin: 0 5px 5px;
+}
+.area_adhesion_map {
+	border-bottom:none;
+}
+
+
+
+
+
+}
+/*  iphone5　------------------------------------------------------------------*/
+@media screen and (max-width: 320px) {
+.main h2.greeting{
+ 	font-size:85%;
+  }
+  
+.main .zenkoku_after .alljapan .txt, .main .zenkoku_after .aftercare .txt {
+	line-height:110%;
+}
+.col3 .area_adhesion h2 {
+ 	font-size:100%;
+}
+
+
+
+
+
+}
+

@@ -1,0 +1,199 @@
+<!--
+<div class="iamContainerTitle">
+  <h3>東芝 業務用エアコン 室外機一覧</h3>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/super_out.jpg" alt="スーパーパワーエコR 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">スーパーパワーエコR 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+        <td colspan="4">550</td>
+        <td colspan="2">890</td>
+        <td colspan="3">1340</td>
+        <td colspan="2">1800</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+        <td colspan="4">780</td>
+        <td colspan="5">900</td>
+        <td colspan="2">990</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+        <td colspan="4">290</td>
+        <td colspan="5">320</td>
+        <td colspan="2">750</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+        <td colspan="2">36</td>
+        <td colspan="2">41</td>
+        <td colspan="2">63・64(単)</td>
+        <td colspan="3">90</td>
+        <td colspan="2">206</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/smart_out.jpg" alt="スマートエコR 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">スマートエコR 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+        <td colspan="6">550</td>
+        <td colspan="2">795</td>
+        <td>1340</td>
+        <td colspan="2">1540</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+        <td colspan="6">780</td>
+        <td colspan="5">900</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+        <td colspan="6">290</td>
+        <td colspan="5">320</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+        <td colspan="3">34</td>
+        <td colspan="2">37</td>
+        <td>41</td>
+        <td>58</td>
+        <td>71</td>
+        <td>90</td>
+        <td>119</td>
+        <td>133</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/toshiba_coolingonly_out.jpg" alt="東芝 冷房専用 室外機" ></div>
+<div class="specBox r10">
+  <h2 class="h2Def_product">冷房専用 室外機の主仕様</h2>
+  <table class="def_table" style="width:100%;">
+    <tbody class="centering">
+      <tr class="td02">
+        <th colspan="2" class="color02">呼称能力</th>
+        <th>P40形</th>
+        <th>P45形</th>
+        <th>P50形</th>
+        <th>P56形</th>
+        <th>P63形</th>
+        <th>P80形</th>
+        <th>P112形</th>
+        <th>P140形</th>
+        <th>P160形</th>
+        <th>P224形</th>
+        <th>P280形</th>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">馬力</th>
+        <th>1.5</th>
+        <th>1.8</th>
+        <th>2</th>
+        <th>2.3</th>
+        <th>2.5</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>8</th>
+        <th>10</th>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+        <td colspan="4">550</td>
+        <td colspan="2">795</td>
+        <td colspan="3">1340</td>
+        <td colspan="2">1540</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+        <td colspan="4">780</td>
+        <td colspan="7">900</td>
+      </tr>
+      <tr class="td02">
+        <th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+        <td colspan="4">290</td>
+        <td colspan="7">320</td>
+      </tr>
+      <tr class="td01">
+        <th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+        <td colspan="3">34</td>
+        <td>37</td>
+        <td>54</td>
+        <td>58</td>
+        <td colspan="3">90</td>
+        <td>119</td>
+        <td>133</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="iamContainerTitle">
+  <h3>東芝 業務用エアコン リモコン</h3>
+</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/toshiba_remotecontrol.jpg" alt="東芝リモコン" ></div>
+ -->

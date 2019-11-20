@@ -1,0 +1,322 @@
+<!--{*
+ * This file is part of EC-CUBE
+ *
+ * Copyright (c) 2006 PAYGENT Co.,Ltd. All rights reserved.
+ *
+ * https://www.paygent.co.jp/
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+*}-->
+<!--{*** EC-CUBE 2.11.1以前用と2.11.3以降用の2種類のテンプレートを定義しています。 ***}-->
+<!--{if preg_match('/^2\.11\.[0-1]$/', $smarty.const.ECCUBE_VERSION)}-->
+<script type="text/javascript" src="<!--{$smarty.const.ROOT_URLPATH}-->js/jquery.fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="<!--{$smarty.const.ROOT_URLPATH}-->js/jquery.fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" href="<!--{$smarty.const.ROOT_URLPATH}-->js/jquery.fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<script type="text/javascript">//<![CDATA[
+var send = true;
+
+function fnCheckSubmit(mode) {
+    if(send) {
+        send = false;
+    fnModeSubmit(mode,'','');
+        return true;
+    } else {
+        alert("只今、処理中です。しばらくお待ち下さい。");
+        return false;
+    }
+}
+
+function next(now, next) {
+    if (now.value.length >= now.getAttribute('maxlength')) {
+    next.focus();
+    }
+}
+//]]>
+</script>
+
+<!--▼CONTENTS-->
+<div id="under02column">
+<div id="under02column_shopping">
+  <h2 class="title"><!--{$tpl_payment_method}--><h2>
+
+    <form name="form1" id="form1" method="post" action="./load_payment_module.php" autocomplete="off">
+    <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
+    <input type="hidden" name="mode" value="next">
+  <table summary="お支払詳細入力" class="entryform">
+    <tbody>
+      <!--{if $tpl_error != ""}-->
+      <tr>
+        <td class="lefttd" colspan="2">
+          <span class="attention"><!--{$tpl_error}--></span><br>
+          <span class="attention"><!--{$tpl_error_detail}--></span>
+        </td>
+      </tr>
+      <!--{/if}-->
+            <!--{if $tpl_payment_image != ""}-->
+      <tr>
+        <th>ご利用いただけるコンビニの種類</th>
+        <td class="lefttd">
+          <img src="<!--{$smarty.const.IMAGE_SAVE_URL}--><!--{$tpl_payment_image}-->">
+        </td>
+      </tr>
+      <!--{/if}-->
+      <tr>
+        <th>コンビニ選択</th>
+        <td class="lefttd">
+          <!--{assign var=key1 value="cvs_company_id"}-->
+          <span class="attention"><!--{$arrErr[$key1]}--></span>
+          <select name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->" >
+          <option value="" size="20">ご選択ください</option>
+          <!--{html_options options=$arrConvenience selected=$arrForm[$key1].value}-->
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>利用者</th>
+        <td class="lefttd">
+          <!--{assign var=key1 value="customer_family_name"}-->
+          <!--{assign var=key2 value="customer_name"}-->
+          <span class="attention"><!--{$arrErr[$key1]}--></span>
+          <span class="attention"><!--{$arrErr[$key2]}--></span>
+                    姓&nbsp;<input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->" size="20" class="bo20">&nbsp;&nbsp;<br>
+                    名&nbsp;<input type="text" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|h}-->" maxlength="<!--{$arrForm[$key2].length}-->" style="<!--{$arrErr[$key2]|sfGetErrorColor}-->" size="20" class="bo20">
+        </td>
+      </tr>
+      <tr>
+        <th>利用者(カナ)</th>
+        <td class="lefttd">
+          <!--{assign var=key1 value="customer_family_name_kana"}-->
+          <!--{assign var=key2 value="customer_name_kana"}-->
+          <span class="attention"><!--{$arrErr[$key1]}--></span>
+          <span class="attention"><!--{$arrErr[$key2]}--></span>
+                    セイ&nbsp;<input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->" size="20" class="bo20">&nbsp;&nbsp;<br>
+                    メイ&nbsp;<input type="text" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|h}-->" maxlength="<!--{$arrForm[$key2].length}-->" style="<!--{$arrErr[$key2]|sfGetErrorColor}-->" size="20" class="bo20">
+          <br /><p class="mini">※カナに濁点（゛）や半濁点（゜）がある場合、該当記号のみ除外されます。予めご了承ください。</p>
+        </td>
+      </tr>
+      <tr>
+        <th>お電話番号</th>
+        <td class="lefttd">
+          <!--{assign var=key1 value="customer_tel"}-->
+          <span class="attention"><!--{$arrErr[$key1]}--></span>
+          <input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="ime-mode: disabled; <!--{$arrErr[$key1]|sfGetErrorColor}-->" size="20" class="bo20">
+        </td>
+      </tr>
+      <tr>
+    <td colspan="2" class="lefttd">ご選択いただきましたコンビニエンスストアでのお支払いが可能です（各支払い方法は下記一覧をご確認ください）。
+    <br>なお、商品はお支払い後のご提供となります。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tr>
+      <td class="lefttd">
+                以上の内容で間違いなければ、下記「次へ」ボタンをクリックしてください。<br />
+        <span class="attention">※画面が切り替るまで少々時間がかかる場合がございますが、そのままお待ちください。</span>
+      </td>
+    </tr>
+  </table>
+
+　<div class="tblareabtn">
+    <p><input type="submit" onclick="return fnCheckSubmit('next');" value="次へ" class="spbtn spbtn-shopping" width="130" height="30" alt="次へ" name="next" id="next" /></p>
+        <p><input type="submit" onclick="return fnCheckSubmit('return');" value="戻る" class="spbtn spbtn-medeum" alt="戻る" name="return" id="return" /></p>
+  </div>
+  <table class="entryform">
+    <tbody>
+      <tr>
+    <th>セブン-イレブン</th>
+        <td class="lefttd">セブン-イレブンのレジ店頭にてお支払いが可能です。</td>
+      </tr>
+      <tr>
+    <th>ファミリーマート</th>
+        <td class="lefttd">ファミリーマート店内に設置されている「Famiポート」で支払番号を入力し、発券される申込券でレジにてお支払が可能です。</td>
+      </tr>
+      <tr>
+    <th>ローソン、ミニストップ、デイリーヤマザキ</th>
+        <td class="lefttd">ローソン、ミニストップは店内に設置されている「Loppi」で支払番号を入力してレジにて、それ以外のコンビニはレジ店頭でお支払いが可能です。</td>
+      </tr>
+      <tr>
+    <th>セイコーマート</th>
+        <td class="lefttd">セイコーマート店内に設置されている「クラブステーション」で支払番号を入力し、発券される申込券でレジにてお支払が可能です。</td>
+      </tr>
+    </tbody>
+  </table>
+  </form>
+
+</div>
+</div>
+<!--▲CONTENTS-->
+<!--{else}-->
+<style type="text/css">
+<!--
+table {
+    margin: 15px auto 20px auto;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+table th {
+    padding: 8px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    background-color: #f0f0f0;
+    font-weight: normal;
+}
+table td {
+    padding: 8px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+-->
+</style>
+<script type="text/javascript">//<![CDATA[
+var send = true;
+
+window.onunload=function(){
+}
+window.onload=function onloadCashClear() {
+	if (send) {
+		return false;
+	} else {
+		sendo = true;
+		return false;
+	}
+}
+
+function fnCheckSubmit(mode) {
+    if(send) {
+        send = false;
+        fnModeSubmit(mode,'','');
+        return false;
+    } else {
+        alert("只今、処理中です。しばらくお待ち下さい。");
+        return false;
+    }
+}
+
+function next(now, next) {
+    if (now.value.length >= now.getAttribute('maxlength')) {
+    next.focus();
+    }
+}
+//]]>
+</script>
+
+<!--▼コンテンツここから -->
+<section id="undercolumn">
+
+    <h2 class="title"><!--{$tpl_payment_method}--></h2>
+
+    <!--★インフォメーション★-->
+    <div class="information end">
+      <!--{if $tpl_error != ""}-->
+        <p><span class="attention"><!--{$tpl_error}--></span></p>
+        <p><span class="attention"><!--{$tpl_error_detail}--></span></p>
+      <!--{/if}-->
+      <!--{if $tpl_payment_image != ""}-->
+        <p>ご利用いただけるコンビニの種類<br><img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$tpl_payment_image}-->"></p>
+      <!--{/if}-->
+    </div>
+
+    <form name="form1" id="form1" method="post" action="./load_payment_module.php" autocomplete="off">
+        <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
+        <input type="hidden" name="mode" value="next">
+
+        <dl class="form_entry">
+            <dt>コンビニ選択</dt>
+            <dd>
+                <!--{assign var=key1 value="cvs_company_id"}-->
+                <span class="attention"><!--{$arrErr[$key1]}--></span>
+                <select name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->" class="boxLong data-role-none">
+                <option value="" size="20">ご選択ください</option>
+                <!--{html_options options=$arrConvenience selected=$arrForm[$key1].value}-->
+                </select>
+            </dd>
+            <dt id="customer_dt">利用者</dt>
+            <dd id="customer_dd">
+                <!--{assign var=key1 value="customer_family_name"}-->
+                <!--{assign var=key2 value="customer_name"}-->
+                <span class="attention"><!--{$arrErr[$key1]}--></span>
+                <span class="attention"><!--{$arrErr[$key2]}--></span>
+                姓&nbsp;<input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" class="boxShort text data-role-none" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->" size="20" class="bo20">&nbsp;
+                名&nbsp;<input type="text" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|h}-->" maxlength="<!--{$arrForm[$key2].length}-->" class="boxShort text data-role-none" style="<!--{$arrErr[$key2]|sfGetErrorColor}-->" size="20" class="bo20"><br />
+                <p class="mini">※ 特殊な漢字は使用できない場合がございます。</p>
+            </dd>
+            <dt id="customer_kana_dt">利用者<br />(カナ)</dt>
+            <dd id="customer_kana_dd">
+                <!--{assign var=key1 value="customer_family_name_kana"}-->
+                <!--{assign var=key2 value="customer_name_kana"}-->
+                <span class="attention"><!--{$arrErr[$key1]}--></span>
+                <span class="attention"><!--{$arrErr[$key2]}--></span>
+                セイ&nbsp;<input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" class="boxShort text data-role-none" style="<!--{$arrErr[$key1]|sfGetErrorColor}-->" size="20" class="bo20">&nbsp;
+                メイ&nbsp;<input type="text" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|h}-->" maxlength="<!--{$arrForm[$key2].length}-->" class="boxShort text data-role-none" style="<!--{$arrErr[$key2]|sfGetErrorColor}-->" size="20" class="bo20"><br />
+                <p class="mini">※カナに濁点（゛）や半濁点（゜）がある場合、該当記号のみ除外されます。予めご了承ください。</p>
+            </dd>
+            <dt id="customer_tel_dt">お電話番号</dt>
+            <dd id="customer_tel_dd">
+                <!--{assign var=key1 value="customer_tel"}-->
+                <span class="attention"><!--{$arrErr[$key1]}--></span>
+                <input type="text" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="ime-mode: disabled; <!--{$arrErr[$key1]|sfGetErrorColor}-->" size="20" class="bo20">
+            </dd>
+        </dl>
+
+        <div class="btn_area">
+            <p>
+                ご選択いただきましたコンビニエンスストアでのお支払いが可能です（各支払い方法は下記一覧をご確認ください）。<br />
+	            なお、商品はお支払い後のご提供となります。<br />
+                以上の内容で間違いなければ、下記「次へ」ボタンをクリックしてください。<br />
+                <span class="attention">※画面が切り替るまで少々時間がかかる場合がございますが、そのままお待ちください。</span>
+            </p>
+
+            <ul class="btn_btm">
+                <li><a href="javascript:fnCheckSubmit('next');" class="btn">次へ</a></li>
+                <li><a href="javascript:fnCheckSubmit('return');" class="btn_back">戻る</a></li>
+            </ul>
+        </div>
+
+        <table border='1' class="conveni_discription">
+            <tr>
+                <th>セブン-イレブン</th>
+                <td>セブン-イレブンのレジ店頭にてお支払いが可能です。</td>
+            </tr>
+            <tr>
+                <th>ファミリーマート</th>
+                <td>ファミリーマート店内に設置されている「Famiポート」で支払番号を入力し、発券される申込券でレジにてお支払が可能です。</td>
+            </tr>
+            <tr>
+                <th>ローソン、ミニストップ</th>
+                <td>ローソン、ミニストップ店内に設置されている「Loppi」で支払番号を入力し、発券される申込券でレジにてお支払が可能です。</td>
+            </tr>
+            <tr>
+                <th>デイリーヤマザキ</th>
+                <td>デイリーヤマザキのレジ店頭にてお支払いが可能です。</td>
+            </tr>
+            <tr>
+                <th>セイコーマート</th>
+                <td>セイコーマート店内に設置されている「クラブステーション」で支払番号を入力し、発券される申込券でレジにてお支払が可能です。</td>
+            </tr>
+        </table>
+
+        <iframe style="height:0px;width:0px;visibility:hidden" src="about:blank">
+            this frame prevents back forward cache
+        </iframe>
+
+    </form>
+</section>
+<!--{/if}-->

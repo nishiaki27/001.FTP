@@ -1,0 +1,131 @@
+# 基本は SC_Initial.php で設定するが、ini_setで反映されないものはここで設定する
+
+php_value mbstring.language Japanese
+php_flag mbstring.encoding_translation off
+php_value output_handler NULL
+php_flag magic_quotes_gpc off
+php_flag session.auto_start 0
+
+# INI_ALL なのにもかかわらず, ini_set で指定しても反映されない環境がある...
+php_value mbstring.internal_encoding UTF-8
+
+# デフォルトテンプレートの状態で 2M 近くになるため
+php_value upload_max_filesize 5M
+#php_value post_max_size 8M
+php_flag register_globals off
+
+php_flag allow_url_fopen On
+php_flag apc.cache_by_default Off
+
+#ここから追加
+ErrorDocument 404 /404.php
+
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.tokyo-aircon.net/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-z_0-9]+).php user_data/$1.php [L]
+RewriteCond %{HTTP_HOST} ^f04-047.007.137.203.fs-user.net
+RewriteRule ^(.*)$ https://www.tokyo-aircon.net/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.f04-047.007.137.203.fs-user.net
+RewriteRule ^(.*)$ https://www.tokyo-aircon.net/$1 [R=301,L]
+
+
+RewriteCond %{THE_REQUEST} ^.*/index.php
+RewriteRule ^(.*)index.php$ https://www.tokyo-aircon.net/$1 [R=301,L]
+RewriteRule /list.php+ /products/list.php [R=301,L] 
+
+
+RewriteRule ^keijyo_([a-z_0-9]+).html+ industrial_aircon.php?keijyo=$1&%{QUERY_STRING} [L]
+RewriteRule ^location_([a-z_0-9]+).html+ industrial_aircon_location.php?loc=$1 [L]
+RewriteRule ^power_([a-z_0-9]+).html+ industrial_aircon_power.php?pw=$1&%{QUERY_STRING} [L]
+RewriteRule ^maker_([a-z_0-9]+)_([a-z_0-9]+).html+ industrial_aircon_maker.php?ma=$1&keijyo=$2&%{QUERY_STRING} [L]
+
+RewriteRule ^maker_daikin.html+ /products/list.php?category_id=100001&orderby=price [L]
+RewriteRule ^maker_toshiba.html+ /products/list.php?category_id=100002&orderby=price [L]
+RewriteRule ^maker_mitsubishidenki.html+ /products/list.php?category_id=100003&orderby=price [L]
+RewriteRule ^maker_hitachi.html+ /products/list.php?category_id=100004&orderby=price [L]
+RewriteRule ^maker_mitsubishijyuko.html+ /products/list.php?category_id=100005&orderby=price [L]
+RewriteRule ^maker_panasonic.html+ /products/list.php?category_id=100006&orderby=price [L]
+
+RewriteRule ^building/daikin.html+ /building/index.php?maker_name=daikin [L]
+RewriteRule ^building/toshiba.html+ /building/index.php?maker_name=toshiba [L]
+RewriteRule ^building/mitsubishidenki.html+ /building/index.php?maker_name=mitsubishidenki [L]
+RewriteRule ^building/hitachi.html+ /building/index.php?maker_name=hitachi [L]
+RewriteRule ^building/mitsubishijyuko.html+ /building/index.php?maker_name=mitsubishijyuko [L]
+
+RewriteRule ^setsubi/daikin.html+ /setsubi/index.php?maker_name=daikin [L]
+RewriteRule ^setsubi/toshiba.html+ /setsubi/index.php?maker_name=toshiba [L]
+RewriteRule ^setsubi/mitsubishidenki.html+ /setsubi/index.php?maker_name=mitsubishidenki [L]
+RewriteRule ^setsubi/hitachi.html+ /setsubi/index.php?maker_name=hitachi [L]
+RewriteRule ^setsubi/mitsubishijyuko.html+ /setsubi/index.php?maker_name=mitsubishijyuko [L]
+
+RewriteRule ^discount_aircon/index.html+ /user_data/discount_aircon/index.php [L]
+RewriteRule ^discount_aircon/form.html+ /user_data/discount_aircon/form.php [L]
+RewriteRule ^discount_aircon/maker.html+ /user_data/discount_aircon/maker.php [L]
+RewriteRule ^discount_aircon/form_([a-z_0-9]+).html+ discount_aircon/form.html?keijyo=$1&%{QUERY_STRING} [L]
+RewriteRule ^discount_aircon/maker_([a-z_0-9]+)_([a-z_0-9]+).html+ discount_aircon/maker.html?ma=$1&keijyo=$2&%{QUERY_STRING} [L]
+
+RewriteRule ^kanreiti/index.html+ /user_data/kanreiti/index.php [L]
+RewriteRule ^kanreiti/form.html+ /user_data/kanreiti/form.php [L]
+RewriteRule ^kanreiti/maker.html+ /user_data/kanreiti/maker.php [L]
+RewriteRule ^kanreiti/form_([a-z_0-9]+).html+ kanreiti/form.html?keijyo=$1&%{QUERY_STRING} [L]
+RewriteRule ^kanreiti/maker_([a-z_0-9]+)_([a-z_0-9]+).html+ kanreiti/maker.html?ma=$1&keijyo=$2&%{QUERY_STRING} [L]
+
+# ↓WEBキャッシュ↓
+
+<ifModule mod_expires.c>
+#webキャッシュのオンオフ
+ExpiresActive On
+#gif画像キャッシュ：1週間
+ExpiresByType image/gif "access plus 1 weeks"
+#jpg画像キャッシュ：1週間
+ExpiresByType image/jpg "access plus 1 weeks"
+#jpeg画像キャッシュ：1週間
+ExpiresByType image/jpeg "access plus 1 weeks"
+#png画像キャッシュ：1週間
+ExpiresByType image/png "access plus 1 weeks"
+#cssキャッシュ：5日間
+ExpiresByType text/css "access plus 10 days"
+ExpiresByType application/css "access plus 10 days"
+#jsキャッシュ：1ヶ月
+ExpiresByType text/js "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"	
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+</ifModule>
+
+# ↑WEBキャッシュ↑
+
+
+# ↓圧縮↓
+
+<IfModule mod_deflate.c>
+SetOutputFilter DEFLATE
+ 
+# Mozilla4系などの古いブラウザで無効、しかしMSIEは除外
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+# gifやjpgなど圧縮済みのコンテンツは再圧縮しない
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|ico)$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI _\.utxt$ no-gzip
+# htmlやcssなどは圧縮
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/atom_xml
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/x-httpd-php
+</IfModule>
+
+# ↑圧縮↑

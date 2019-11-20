@@ -1,0 +1,10 @@
+<?php
+/*
+ * セブンイレブンでのコンビニ決済の時だけ、GMOPGからのメールを送信させ
+ * たい場合は、このファイルをmdl_pg_mulpay_config.phpの名前でコピーし
+ * て下さい。
+ */
+
+define('MDL_PG_MULPAY_CONF_PGMAIL_CONVENI_SEVENELEVEN', true);
+
+?>

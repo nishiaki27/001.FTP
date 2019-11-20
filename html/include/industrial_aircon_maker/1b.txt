@@ -1,0 +1,306 @@
+<!--
+<h3 class="title4">ダイキン 業務用エアコン 室外機一覧</h3>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/ecozeas80_out.jpg" alt="エコジアス80室外機" ></div>
+<div class="specBox r10">
+								<h2 class="h2Def_product">Eco-ZEAS 80室外機の主仕様</h2>
+
+								<table class="def_table" style="width:100%;">
+									<tbody class="centering">
+										<tr class="td02">
+											<th colspan="2" class="color02">呼称能力</th>
+											<th>P40形</th>
+											<th>P45形</th>
+											<th>P50形</th>
+
+											<th>P56形</th>
+											<th>P63形</th>
+											<th>P80形</th>
+											<th>P112形</th>
+											<th>P140形</th>
+											<th>P160形</th>
+
+											<th>P224形</th>
+											<th>P280形</th>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">馬力</th>
+											<th>1.5</th>
+											<th>1.8</th>
+
+											<th>2</th>
+											<th>2.3</th>
+											<th>2.5</th>
+											<th>3</th>
+											<th>4</th>
+											<th>5</th>
+
+											<th>6</th>
+											<th>8</th>
+											<th>10</th>
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+
+											<td colspan="5">595</td>
+											<td>990</td>
+											<td colspan="5">1,430</td>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+
+											<td colspan="5">795</td>
+											<td>940</td>
+											<td colspan="5">940</td>
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+
+											<td colspan="5">300</td>
+											<td>320</td>
+											<td colspan="5">320</td>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+
+											<td colspan="3">40</td>
+											<td colspan="2">41</td>
+											<td>71</td>
+											<td colspan="3">90</td>
+											<td colspan="2">133</td>
+											</tr>
+											
+									</tbody>
+
+								</table>
+							</div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/zeas_out.jpg" alt="ジアス室外機" ></div>
+<div class="specBox r10">
+								<h2 class="h2Def_product">ZEAS 室外機の主仕様</h2>
+
+<table class="def_table" style="width:100%;">
+									<tbody class="centering">
+										<tr class="td02">
+											<th colspan="2" class="color02">呼称能力</th>
+											<th>P40形</th>
+											<th>P45形</th>
+											<th>P50形</th>
+
+											<th>P56形</th>
+											<th>P63形</th>
+											<th>P80形</th>
+											<th>P112形</th>
+											<th>P140形</th>
+											<th>P160形</th>
+
+											<th>P224形</th>
+											<th>P280形</th>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">馬力</th>
+											<th>1.5</th>
+											<th>1.8</th>
+
+											<th>2</th>
+											<th>2.3</th>
+											<th>2.5</th>
+											<th>3</th>
+											<th>4</th>
+											<th>5</th>
+
+											<th>6</th>
+											<th>8</th>
+											<th>10</th>
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">595</td>
+											<td>990</td>
+                                            <td colspan="2">1,170</td>
+											<td colspan="2">1,430</td>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">795</td>
+											<td>940</td>
+                                            <td colspan="2">900</td>
+											<td colspan="2">940</td>
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">300</td>
+                                            <td colspan="5">320</td>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+
+											<td colspan="5">40</td>
+											<td>43</td>
+											<td>73</td>
+											<td colspan="2">80</td>
+											<td>122</td>
+                                            <td>134</td>
+											</tr>
+											
+									</tbody>
+
+								</table>
+</div>
+                            <div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/daikin_e_out.jpg" alt="ダイキンEシリーズ室外機" ></div>
+<div class="specBox r10">
+								<h2 class="h2Def_product">Eシリーズ 室外機の主仕様</h2>
+
+								<table class="def_table" style="width:100%;">
+									<tbody class="centering">
+										<tr class="td02">
+											<th colspan="2" class="color02">呼称能力</th>
+											<th>P40形</th>
+											<th>P45形</th>
+											<th>P50形</th>
+
+											<th>P56形</th>
+											<th>P63形</th>
+											<th>P80形</th>
+											<th>P112形</th>
+											<th>P140形</th>
+											<th>P160形</th>
+
+											
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">馬力</th>
+											<th>1.5</th>
+											<th>1.8</th>
+
+											<th>2</th>
+											<th>2.3</th>
+											<th>2.5</th>
+											<th>3</th>
+											<th>4</th>
+											<th>5</th>
+
+											<th>6</th>
+											
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">595</td>
+                                            <td colspan="3">990</td>
+                                            
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">795</td>
+                                            <td colspan="3">940</td>
+											
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">300</td>
+											<td colspan="3">320</td>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+
+											<td colspan="5">40</td>
+											<td>43</td>
+											<td>73</td>
+											<td>59</td>
+                                            <td>66</td>
+                                           
+									  </tr>
+											
+									</tbody>
+
+								</table>
+</div>					
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/daikin_coolingonly_out.jpg" alt="ダイキン冷房専用室外機" ></div>
+<div class="specBox r10">
+								<h2 class="h2Def_product">冷房専用 室外機の主仕様</h2>
+
+								<table class="def_table" style="width:100%;">
+									<tbody class="centering">
+										<tr class="td02">
+											<th colspan="2" class="color02">呼称能力</th>
+											<th>P40形</th>
+											<th>P45形</th>
+											<th>P50形</th>
+
+											<th>P56形</th>
+											<th>P63形</th>
+											<th>P80形</th>
+											<th>P112形</th>
+											<th>P140形</th>
+											<th>P160形</th>
+
+											<th>P224形</th>
+											<th>P280形</th>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">馬力</th>
+											<th>1.5</th>
+											<th>1.8</th>
+
+											<th>2</th>
+											<th>2.3</th>
+											<th>2.5</th>
+											<th>3</th>
+											<th>4</th>
+											<th>5</th>
+
+											<th>6</th>
+											<th>8</th>
+											<th>10</th>
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">高さ<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">569</td>
+                                            <td>770</td>
+                                            <td>990</td>
+                                            <td>1,170</td>
+                                            <td>1,345</td>
+											<td colspan="3">1,430</td>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">幅<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">795</td>
+                                            <td>900</td>
+											<td>940</td>
+                                            <td>900</td>
+                                            <td>900</td>
+                                            <td>940</td>
+										</tr>
+										<tr class="td02">
+											<th colspan="2" class="color02">奥行<span class="p10px">（mm）</span></th>
+
+											<td colspan="6">285</td>
+											<td colspan="5">320</td>
+										</tr>
+										<tr class="td01">
+											<th colspan="2" class="color02">質量<span class="p10px">（kg）</span></th>
+
+											<td colspan="5">39</td>
+											<td>41</td>
+											<td>60</td>
+											<td>73</td>
+                                            <td>80</td>
+                                            <td>120</td>
+                                            <td>134</td>
+											</tr>
+											
+									</tbody>
+
+								</table>
+							</div>					
+   <div class="iamContainerTitle">
+ <h3>ダイキン業務用エアコン リモコン</h3></div>
+<div id="products_out"><img src="http://www.setsu-bi.com/images/ind_aircon_maker/daikin_remotecontrol.jpg" alt="ダイキンリモコン" ></div>
+
+ -->
